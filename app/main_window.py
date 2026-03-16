@@ -54,7 +54,7 @@ _NAV_ITEMS: list[tuple[str, str]] = [
     ("YMT Editor", "Edit clothing metadata files (.ymt)"),
     ("META Editor", "Edit vehicles.meta, handling.meta, and other XML files"),
     ("Clothing Builder", "Build advanced clothing packs with GTA naming automation"),
-    ("Resource Builder", "Create ready-to-use FiveM resource folders"),
+    ("Resource Builder", "Create ready-to-use game resource folders"),
 ]
 
 
