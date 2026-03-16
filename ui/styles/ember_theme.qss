@@ -1,0 +1,43 @@
+/* FiveForge - Ember Theme */
+QMainWindow, QWidget {
+    background-color: #181210;
+    color: #f2e6dd;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 13px;
+}
+
+#Sidebar { background-color: #130d0c; border-right: 1px solid #3a2520; }
+#LogoFrame { background-color: #0f0a09; border-bottom: 1px solid #3a2520; }
+#LogoLabel { font-size: 17px; font-weight: 700; color: #ff8d5e; }
+
+#NavButton { background: transparent; color: #c3a394; border: none; border-left: 3px solid transparent; text-align: left; padding-left: 18px; }
+#NavButton:hover { background-color: #221613; color: #f3d8cc; border-left: 3px solid #6b3b2f; }
+#NavButton:checked { background-color: #2a1a16; color: #ffb18d; border-left: 3px solid #ff8d5e; font-weight: 600; }
+#VersionLabel { color: #8f6f62; font-size: 11px; padding: 10px; }
+
+#Toolbar { background-color: #130d0c; border-bottom: 1px solid #3a2520; }
+#PanelTitle { font-size: 15px; font-weight: 700; color: #ffe6d8; }
+#ListPanel { background-color: #130d0c; border-right: 1px solid #3a2520; }
+#ContentFrame { background-color: #181210; }
+
+#HeroCard, #InfoCard { background-color: #221613; border: 1px solid #56352c; border-radius: 10px; }
+#HeroTitle { font-size: 24px; font-weight: 700; color: #ffb18d; }
+#HeroBody { color: #d9b3a0; font-size: 14px; }
+#SectionGroupLabel { color: #f2d6c6; font-size: 13px; font-weight: 700; }
+#InfoLabel { color: #c09c8d; font-size: 12px; padding: 5px; }
+
+QPushButton#PrimaryButton { background-color: #ff8d5e; color: #2a1108; border: none; border-radius: 6px; padding: 8px 18px; font-weight: 700; }
+QPushButton#PrimaryButton:hover { background-color: #ffa97f; }
+QPushButton#SecondaryButton { background-color: #2a1a16; color: #ebc8ba; border: 1px solid #5f3a2f; border-radius: 6px; padding: 8px 18px; }
+QPushButton#SecondaryButton:hover { background-color: #35211c; }
+QPushButton#DangerButton { background-color: #3d1414; color: #ffaaaa; border: 1px solid #7a2f2f; border-radius: 6px; padding: 8px 18px; }
+
+QListWidget, QTreeWidget, QLineEdit, QSpinBox, QComboBox, QPlainTextEdit#CodeEditor {
+    background-color: #120c0b;
+    border: 1px solid #4f3129;
+    border-radius: 5px;
+    color: #f0e0d5;
+}
+QListWidget::item:selected, QTreeWidget::item:selected { background-color: #321f1a; color: #ffba99; }
+QComboBox QAbstractItemView { background-color: #221613; border: 1px solid #56352c; selection-background-color: #321f1a; selection-color: #ffba99; }
+QStatusBar { background-color: #0f0a09; color: #9d7d70; border-top: 1px solid #3a2520; }

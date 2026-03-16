@@ -1,0 +1,158 @@
+/* FiveForge - Light Theme */
+QMainWindow, QWidget {
+    background-color: #f3f6fb;
+    color: #1f2a35;
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 13px;
+}
+
+#Sidebar {
+    background-color: #e8eef8;
+    border-right: 1px solid #c9d5ea;
+}
+
+#LogoFrame {
+    background-color: #dfe8f6;
+    border-bottom: 1px solid #c9d5ea;
+}
+
+#LogoLabel {
+    font-size: 17px;
+    font-weight: 700;
+    color: #0f5fa8;
+}
+
+#NavButton {
+    background-color: transparent;
+    color: #3c4f63;
+    border: none;
+    border-left: 3px solid transparent;
+    text-align: left;
+    padding-left: 18px;
+    font-size: 13px;
+}
+
+#NavButton:hover {
+    background-color: #d7e4f6;
+    border-left: 3px solid #8aa7cc;
+}
+
+#NavButton:checked {
+    background-color: #cfe0f7;
+    color: #0f5fa8;
+    border-left: 3px solid #0f5fa8;
+    font-weight: 600;
+}
+
+#VersionLabel {
+    color: #5b738e;
+    font-size: 11px;
+    padding: 10px;
+}
+
+#Toolbar {
+    background-color: #e8eef8;
+    border-bottom: 1px solid #c9d5ea;
+}
+
+#PanelTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #203246;
+}
+
+#ListPanel {
+    background-color: #edf3fc;
+    border-right: 1px solid #c9d5ea;
+}
+
+#ContentFrame {
+    background-color: #f3f6fb;
+}
+
+#HeroCard, #InfoCard {
+    background-color: #ffffff;
+    border: 1px solid #cfdbed;
+    border-radius: 10px;
+}
+
+#HeroTitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #103a61;
+}
+
+#HeroBody {
+    color: #3e5873;
+    font-size: 14px;
+}
+
+#InfoLabel {
+    color: #4f6278;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#SectionGroupLabel {
+    color: #30485f;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QPushButton#PrimaryButton {
+    background-color: #0f6abd;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-weight: 700;
+}
+
+QPushButton#PrimaryButton:hover {
+    background-color: #0a5aa3;
+}
+
+QPushButton#SecondaryButton {
+    background-color: #e6eefb;
+    color: #1f3f5f;
+    border: 1px solid #b5c8e6;
+    border-radius: 5px;
+    padding: 8px 18px;
+}
+
+QPushButton#SecondaryButton:hover {
+    background-color: #d7e6fb;
+}
+
+QPushButton#DangerButton {
+    background-color: #ffe8e8;
+    color: #9f1d1d;
+    border: 1px solid #e8b0b0;
+    border-radius: 5px;
+    padding: 8px 18px;
+}
+
+QListWidget, QTreeWidget, QLineEdit, QSpinBox, QComboBox, QPlainTextEdit#CodeEditor {
+    background-color: #ffffff;
+    border: 1px solid #ccd8eb;
+    border-radius: 4px;
+    color: #1f2a35;
+}
+
+QListWidget::item:selected, QTreeWidget::item:selected {
+    background-color: #d8e9ff;
+    color: #0f5fa8;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #ffffff;
+    border: 1px solid #ccd8eb;
+    selection-background-color: #d8e9ff;
+    selection-color: #0f5fa8;
+}
+
+QStatusBar {
+    background-color: #e8eef8;
+    color: #4f6278;
+    border-top: 1px solid #c9d5ea;
+}
