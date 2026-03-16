@@ -1,0 +1,12 @@
+.venv/
+.venv312/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

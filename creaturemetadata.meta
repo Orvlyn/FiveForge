@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CPedModelInfo__InitDataList>
+  <residentTxd>uppr_diff_000_a_uni</residentTxd>
+  <InitDatas>
+    <Item>
+      <Name>hash_1B472392</Name>
+      <PropsName></PropsName>
+      <ClipDictionaryName>move_m@generic</ClipDictionaryName>
+      <ExpressionSetName>expr_set_ambient_male</ExpressionSetName>
+      <CreatureMetadataName>creaturemetadata</CreatureMetadataName>
+      <DecisionMakerName>DEFAULT</DecisionMakerName>
+      <MovementClipSet>move_m@generic</MovementClipSet>
+      <DefaultGestureClipSet>ANIM_GROUP_GESTURE_M_GENERIC</DefaultGestureClipSet>
+      <Pedtype>CIVMALE</Pedtype>
+      <IsStreamedGfx value="true" />
+    </Item>
+  </InitDatas>
+</CPedModelInfo__InitDataList>
