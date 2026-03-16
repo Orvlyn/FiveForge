@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 APP_NAME = "FiveForge"
-APP_TITLE = "FiveForge - FiveM Studio"
+APP_TITLE = "FiveForge"
 APP_VERSION = "1.1.0"
 APP_ORG = "FiveForge"
 
